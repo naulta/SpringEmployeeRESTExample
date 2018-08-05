@@ -65,6 +65,8 @@ A Dockerfile is included to be able to build a docker container for this applica
 ## Running from Dockerhub
 This image can be found on Dockerhub as `anault/employee-demo`.
 To run this follow the following commands:
-```docker run -it anault/employee-demo```
+```
+docker run -it anault/employee-demo
+```
 
 This uses port 5000 for the web server. So all postman, curl, etc. calls would need to use 5000 instead of 8080.
