@@ -14,6 +14,18 @@ The table below lists all the API functions:
 | /employees      | POST     | Creates an active employ with provided information                    |
 | /employees/{id} | DELETE   | Updates an employee to inactive status. (Requires admin authorization)|
 
+## Employee Data Spec
+```
+Employee spec
+id - Unique identifier for an employee
+firstName - Employee first name
+middleInitial - Employee middle initial
+lastName - Employee last name
+dateOfBirth - Employee birthday and year
+dateOfEmployment - Employee start date
+status - ACTIVE or INACTIVE
+```
+
 ## API Interaction Example
 ```
 curl -i -X GET localhost:8080/employee
