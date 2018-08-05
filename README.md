@@ -30,7 +30,7 @@ The source code was written with the following structure. This is a basic patter
 
 ```
 ├── main
-│   ├── javaee
+│   ├── java
 │   │   └── com
 │   │       └── kenzanexample
 │   │           └── employeedemo
