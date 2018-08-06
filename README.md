@@ -85,7 +85,7 @@ The source code was written with the following structure. This is a basic patter
 ```
 
 ## Running in a Docker container
-A Dockerfile is included to be able to build a docker container for this application. The Dockerfile assumes the jar file to be built in the `/target` directory. The exposed port has been mapped to port 5000 on the host OS.
+A Dockerfile is included to be able to build a docker container for this application. The Dockerfile assumes the jar file to be built in the `/target` directory. The exposed port has been mapped to port 8080 on the host OS.
 
 ## Running from Dockerhub
 This image can be found on Dockerhub as `anault/employee-demo`.
@@ -94,4 +94,4 @@ To run this follow the following commands:
 docker run -it anault/employee-demo
 ```
 
-This uses port 5000 for the web server. So all postman, curl, etc. calls would need to use 5000 instead of 8080.
+This uses port 8080 for the web server. So all postman, curl, etc. calls would need to use this port.
