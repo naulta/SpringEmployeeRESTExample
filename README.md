@@ -26,6 +26,19 @@ dateOfEmployment - Employee start date
 status - ACTIVE or INACTIVE
 ```
 
+### Example Employee JSON
+```
+{
+    "id": 1,
+    "firstName": "Test",
+    "lastName": "User",
+    "middleInitial": "T",
+    "dateOfBirth": "06/01/1990",
+    "dateOfEmployment": "09/02/2018",
+    "status": "ACTIVE"
+}
+```
+
 ## API Interaction Example
 ```
 curl -i -X GET localhost:8080/employee
